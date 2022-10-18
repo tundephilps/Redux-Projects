@@ -13,8 +13,8 @@ const Card = () => {
       </div>
     </div>
     
-    <div class="name">Anunay kashyap</div>
-    <div class="about">Learne</div>
+    <div class="name">Tunde Philps</div>
+    <div class="about">FrontEnd Developer</div>
     <div class="social-icons">
       <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
       <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>

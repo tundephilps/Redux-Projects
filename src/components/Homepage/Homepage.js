@@ -28,7 +28,7 @@ const Homepage = () => {
       <li class="menu-item">
         <a href="#0">Coming Soon</a>
         <ol class="sub-menu">
-          <li class="menu-item"><a href="#0">Coming Soon</a></li>
+          <li class="menu-item" id="counter"><a href="/CounterApp">Counter App</a></li>
           <li class="menu-item"><a href="#0">Coming Soon</a></li>
           <li class="menu-item"><a href="#0">Coming Soon</a></li>
         </ol>

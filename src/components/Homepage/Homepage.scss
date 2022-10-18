@@ -26,6 +26,15 @@ body {
   background-image: url(https://hk.insight.com/content/dam/insight-web/sitesections/tech-journal/fall-2021/article-images/fall2021-techjournal-di-cloudedge-thumb.jpg) !important;
   
 }
+
+#counter{
+  background: url("../../images/Counter.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .page-header {
   display: flex;
   flex-wrap: wrap;
