@@ -24,7 +24,7 @@ const Homepage = () => {
 
   <nav class="menu">
     <ol>
-      <li class="" id="todo"><a href="#0">Coming Soon</a></li>
+      <li class="" id="todo"><a href="/Diary">Diary WebApp</a></li>
       <li class="menu-item"><a href="#0">Coming Soon</a></li>
       <li class="menu-item">
         <a href="#0">Coming Soon</a>
