@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Counter.scss";
 import { useSelector, useDispatch } from "react-redux"
 import { increment, decrement, reset, incrementByAmount } from "./counterSlice";
+import { store } from '../App/store';
 
 
 function Counter() {
@@ -48,4 +49,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default Counter;

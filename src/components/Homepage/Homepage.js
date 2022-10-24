@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 //import Card from './Card'
 import Font from './Font'
 import "./Homepage.scss"
@@ -29,8 +30,8 @@ const Homepage = () => {
         <a href="#0">Coming Soon</a>
         <ol class="sub-menu">
           <li class="menu-item" id="counter"><a href="/CounterApp">Counter App</a></li>
-          <li class="menu-item"><a href="#0">Coming Soon</a></li>
-          <li class="menu-item"><a href="#0">Coming Soon</a></li>
+          <li class="menu-item"><Link to="/TodoApp">Todo List</Link></li>
+          <li class="menu-item"><a href="/Login">Redux Login System</a></li>
         </ol>
       </li>
       <li class="menu-item">

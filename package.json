@@ -52,6 +52,8 @@
     "react-spring": "^9.4.2",
     "react-syntax-highlighter": "^15.5.0",
     "react-toastify": "^9.0.8",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
     "sass": "^1.49.0",
     "simple-react-lightbox": "^3.6.8",
     "slick-carousel": "^1.8.1",
