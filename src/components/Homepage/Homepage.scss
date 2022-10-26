@@ -35,6 +35,33 @@ body {
   background-repeat: no-repeat;
 }
 
+#Login{
+  background: url("../../images/Login.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#Diary{
+  background: url("../../images/Diary.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#Todo{
+  background: url("../../images/Todo.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
 .page-header {
   display: flex;
   flex-wrap: wrap;

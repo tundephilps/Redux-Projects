@@ -24,20 +24,20 @@ const Homepage = () => {
 
   <nav class="menu">
     <ol>
-      <li class="" id="todo"><a href="/Diary">Diary WebApp</a></li>
+      <li class="" id="todo"><a href="">Coming Soon</a></li>
       <li class="menu-item"><a href="#0">Coming Soon</a></li>
       <li class="menu-item">
         <a href="#0">Coming Soon</a>
         <ol class="sub-menu">
-          <li class="menu-item" id="counter"><a href="/CounterApp">Counter App</a></li>
-          <li class="menu-item"><Link to="/TodoApp">Todo List</Link></li>
-          <li class="menu-item"><a href="/Login">Redux Login System</a></li>
+          <li class="menu-item" id="counter"><a href="https://counter-app-tau-two.vercel.app/">Counter App</a></li>
+          <li class="menu-item" id="Todo" ><a href="https://todo-list-green-ten.vercel.app/">Todo List</a></li>
+          <li class="menu-item" id="Login"><a href="https://login-system-ruby.vercel.app/">Redux Login System</a></li>
         </ol>
       </li>
       <li class="menu-item">
         <a href="#0">Coming Soon</a>
         <ol class="sub-menu">
-          <li class="menu-item"><a href="#0">Coming Soon</a></li>
+          <li class="menu-item" id='Diary'><a href="https://diary-app-tundephilps.vercel.app/">Diary App</a></li>
           <li class="menu-item"><a href="#0">Coming Soon</a></li>
           <li class="menu-item"><a href="#0">Coming Soon</a></li>
         </ol>
