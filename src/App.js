@@ -1,17 +1,20 @@
 import React from 'react'
-import Homepage from './components/Homepage/Homepage';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+import { Provider, useSelector } from "react-redux";
+import {store} from "./components/App/store"
+import { selectUser } from './components/Features/userSlice';
+import Login from './components/Login';
+import Logout from './components/Logout';
+
+
+
 
 
 function App () {
-    return (
-        
-            <div>
-                    <Router>        
-                    <Routes>
-                         <Route path="/" element={<Homepage /> } />
-                    </Routes>
-                    </Router>
+
+    const user = useSelector(selectUser);
+
+    return (<div>
+            {user ? <Logout /> : <Login />}
             </div>
     );
 }
