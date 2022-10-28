@@ -1,21 +1,18 @@
 import React from 'react'
-import { Provider, useSelector } from "react-redux";
-import {store} from "./components/App/store"
-import { selectUser } from './components/Features/userSlice';
-import Login from './components/Login';
-import Logout from './components/Logout';
-
-
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import Diary from './components/Diary';
+import { persistor, store } from './components/Redux/store';
 
 
 
 function App () {
-
-    const user = useSelector(selectUser);
-
-    return (<div>
-            {user ? <Logout /> : <Login />}
-            </div>
+    return (
+        <Provider store={store}>
+          <PersistGate loading={null} persistor={persistor}>
+            <Diary />
+          </PersistGate>
+        </Provider>
     );
 }
 
