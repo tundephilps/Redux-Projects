@@ -1,20 +1,26 @@
-import React from 'react'
-import Homepage from './components/Homepage/Homepage';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+import React from 'react';
+import './App.css';
+import TodoApp from './components/TodoApp'
+import {store} from './components/Redux/store'
+import {Provider} from 'react-redux'
 
 
-function App () {
-    return (
-        
-            <div>
-                    <Router>        
-                    <Routes>
-                         <Route path="/" element={<Homepage /> } />
-                    </Routes>
-                    </Router>
-            </div>
-    );
+
+
+
+function App() {
+  return (
+    
+    <React.Fragment>
+      <Provider store={store}>
+      <TodoApp/>
+      </Provider>
+  
+    </React.Fragment>
+     
+       
+  
+  );
 }
-
 
 export default App;
