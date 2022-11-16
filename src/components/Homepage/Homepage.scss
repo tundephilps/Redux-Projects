@@ -28,11 +28,13 @@ body {
 }
 
 #counter{
+  display: flex;
   background: url("../../images/Counter.png");
   object-fit: initial !important;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 #Login{
@@ -55,6 +57,34 @@ body {
 
 #Todo{
   background: url("../../images/Todo.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#Table{
+  background: url("../../images/table.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#CRUD{
+  
+  background: url("../../images/manage.png");
+  object-fit: initial !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#Form{
+    
+  background: url("../../images/Form.png");
   object-fit: initial !important;
   background-position: center;
   background-size: contain;
